@@ -1,4 +1,4 @@
-#Steps:
+# Steps:
 1. "Dashboard" page skeleton;
 2. "Categories" editing page;
 3. "Add Transaction" page;
