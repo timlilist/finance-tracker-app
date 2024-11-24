@@ -1,0 +1,57 @@
+.outcomeItem {
+    display: flex;
+    gap: 15px;
+}
+
+.orangeLogo {
+    background: #F79042;
+    border-radius: 5px;
+    width: 40px;
+}
+
+.greenLogo {
+    background: #2BC255;
+    border-radius: 5px;
+    width: 40px;
+}
+
+.blueLogo {
+    background: #70A6E8;
+    border-radius: 5px;
+    width: 40px;
+}
+
+.outStatistic {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+
+.orange {
+    height: 10px;
+    border-radius: 5px;
+    background: linear-gradient(to right, #F79042 50%, #F1F1F1 0%);
+}
+
+.green {
+    height: 10px;
+    border-radius: 5px;
+    background: linear-gradient(to right, #2BC255 21%, #F1F1F1 0%);
+    background: linear;
+}
+
+.blue {
+    height: 10px;
+    border-radius: 5px;
+    background: linear-gradient(to right, #70A6E8 74%, #F1F1F1 0%);
+}
+
+.statisticName {
+    font-size: 16px;
+}
+
+.statisticQantity {
+
+}
