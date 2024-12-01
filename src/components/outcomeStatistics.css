@@ -1,24 +1,42 @@
 .outcomeStatisticsContainer {
-    border-radius: 25px;
-    box-shadow: 5px 5px 5px #E8E8E8;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px #e8e8e8;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .outcomeTitle {
-    text-align: center;
-    font-weight: bold;
-    padding-top: 15px;
+  text-align: center;
+  font-weight: 700;
+  padding-top: 15px;
 }
 
 .outcomeList {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    padding: 10px 15px 15px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px 15px 15px 15px;
 }
 
+.orangeLogo {
+  background: #f79042;
+  border-radius: 5px;
+  width: 40px;
+  height: 40px;
+}
 
+.greenLogo {
+  background: #2bc255;
+  border-radius: 5px;
+  width: 40px;
+  height: 40px;
+}
+
+.blueLogo {
+  background: #70a6e8;
+  border-radius: 5px;
+  width: 40px;
+  height: 40px;
+}

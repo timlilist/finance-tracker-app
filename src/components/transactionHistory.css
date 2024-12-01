@@ -1,84 +1,73 @@
 .transactionHistoryContainer {
-    border-radius: 25px;
-    box-shadow: 5px 5px 5px #E8E8E8;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    padding: 15px;
-    gap: 10px;
-
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px #e8e8e8;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  gap: 10px;
 }
 
 .transactionTitle {
-    display: flex; 
-    justify-content: center;
-    font-weight: bold;
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
 }
 
 table {
-    border-collapse: collapse;
-}
-
-th {
-    font-weight:lighter;
-    font-size: 20px;
+  border-collapse: collapse;
 }
 
 tr {
-    border-bottom: 0.5px solid #ECECEC;
+  border-bottom: 0.5px solid #ececec;
 }
 
 td {
-    font-size: 16px;
+  font-size: 16px;
 }
 
-.reciverCell {
-    display: flex;
-    align-items: center;
-    gap: 5px;
+.recieverCell {
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
-.reciverCell
-    img {
-    background-color: #EFEFEF;
-    border-radius: 25%;
+.recieverCell img {
+  background-color: #efefef;
+  border-radius: 25%;
 }
 
 .tableName {
-    color: #AEAEAE;
-    font-weight: lighter;
-    font-size: 20px;
-    text-align: start;
-    padding-bottom: 10px;
+  color: #aeaeae;
+  font-weight: 300;
+  font-size: 20px;
+  text-align: start;
+  padding-bottom: 10px;
 }
 
 .tableHeader {
-    border: none;
+  border: none;
 }
 
-.ditailsCell {
-    color: #C7C7C7;
-    padding-right: 30px;
-}
-
-.ditailsCell.active {
-
+.detailsCell {
+  color: #c7c7c7;
+  padding-right: 30px;
 }
 
 .amountCell {
-    text-align: end;
+  text-align: end;
 }
 
 .endStyle {
-    text-align: end;
+  text-align: end;
 }
 
 @media (max-width: 600px) {
-    .ditailsCell.active {
-        display: none;
-    }
+  .detailsCell.--active {
+    display: none;
+  }
 
-    .tableName.active {
-        display: none;
-    }
+  .tableName.--active {
+    display: none;
+  }
 }
