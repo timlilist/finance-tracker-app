@@ -1,65 +1,60 @@
 .menu {
-    height: 100vh;
-    border-right: 2px solid #777272ad;
-    display: flex;flex-direction: column;
-    align-items: center;
-    padding: 0 10px 0 10px;
-    min-width: 230px;
-    width: 15%;
-    position: sticky;
-    top: 0
-    ;
+  height: 100vh;
+  border-right: 2px solid #777272ad;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 10px 0 10px;
+  min-width: 230px;
+  width: 15%;
+  position: sticky;
+  top: 0;
 }
 
 .userInfo {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
 }
 
 .userPhoto {
-    display: flex;
-    width: 100px;
-    border-radius: 50%;
-    border: 1px solid black;
-}
-
-.userName {
-   
+  display: flex;
+  width: 100px;
+  border-radius: 50%;
+  border: 1px solid black;
 }
 
 .menuList {
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    flex-wrap: wrap;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
 }
 
 .logBtn {
-    display: flex;
-    align-items: center;
-    color: #777272;
-    gap: 10px;
-    border: none;
-    background: transparent;
-    margin-top: auto;
-    margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  color: #777272;
+  gap: 10px;
+  border: none;
+  background: transparent;
+  margin-top: auto;
+  margin-bottom: 10px;
 }
 
 @media (max-width: 831px) {
-    .menu {
-        display: none;
-    }
-    .menu.active {
-        display: flex;
-        margin-left: auto;
-        margin-right: auto;
-        border: none;
-        height: 100vh;
-    }
-   
+  .menu {
+    display: none;
+  }
+  .menu.--active {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    height: 100vh;
+  }
 }

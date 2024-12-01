@@ -1,101 +1,98 @@
 .cardContainer {
-    /* width: 600px;
-    height: 350px; */
-    border-radius: 25px;
-    box-shadow: 5px 5px 5px #E8E8E8;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    padding: 15px;
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px #e8e8e8;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 15px;
 }
 
 .cardTitle {
-    align-self: center;
-    font-weight: bold;
+  align-self: center;
+  font-weight: 700;
 }
 
 .card {
-    background-image:url('../logo/cardBackground.jpg');
-    width: 325px;
-    height: 175px;
-    border-radius: 25px;
-    padding: 25px;
-    display: flex;
-    flex-direction: column;
-    margin-right: 30px;
+  background-image: url("../logo/cardBackground.jpg");
+  width: 325px;
+  height: 175px;
+  border-radius: 25px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
 }
 
 .cardName {
-color: white;
-font-size: 20px;
+  color: white;
+  font-size: 20px;
 }
 
 .cardNumber {
-    color: white;
-    margin-top: auto;
-    margin-bottom: auto;
-    display: flex;
-    gap: 10%;
+  color: white;
+  margin-top: auto;
+  margin-bottom: auto;
+  display: flex;
+  gap: 35px;
 }
 
 .cardInfo {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .cardHolder {
-    color: white;
-    font-size: 20px;
+  color: white;
+  font-size: 20px;
 }
 
 .cardExpire {
-    color: white;
-    font-size: 20px;
+  color: white;
+  font-size: 20px;
 }
 
 .cardAndBalance {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .balanceInfo {
-    border-left: 2px solid #E8E8E8;
-    padding-left: 30px;
+  border-left: 2px solid #e8e8e8;
+  padding-left: 30px;
 }
 
-@media (max-width: 828px){
-    .cardContainer {
-        padding: 0;
-    }    
+@media (max-width: 828px) {
+  .cardContainer {
+    padding: 0;
+  }
 
-    .cardAndBalance {
-        padding: 15px;
-    }
+  .cardAndBalance {
+    padding: 15px;
+  }
 }
 
 @media (max-width: 600px) {
-    .cardAndBalance {
-        flex-direction: column;
-    }
+  .cardAndBalance {
+    flex-direction: column;
+  }
 
-    .balanceInfo {
-        display: flex;
-        border: none;
-        align-items: center;
-        gap: 20px;
-        justify-content: space-between;
-        padding-left: 0;
-    }
+  .balanceInfo {
+    display: flex;
+    border: none;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+    padding-left: 0;
+  }
 
-    .cardContainer {
-        gap: 0;
-    }
+  .cardContainer {
+    gap: 0;
+  }
 
-    .card {
-        width: 270px;
-        height: 125px;
-        margin-right: 0;
-
-    }
+  .card {
+    width: 270px;
+    height: 125px;
+    margin-right: 0;
+  }
 }

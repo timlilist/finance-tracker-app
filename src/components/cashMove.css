@@ -1,25 +1,24 @@
 .appointmentCash {
-    font-size: 14px;
-    color: #AEAEAE;
-    text-align: start;
+  font-size: 14px;
+  color: #aeaeae;
+  text-align: start;
 }
 
 .cashMoveInfo {
-    align-items: start;
-    display: flex;
-    flex-direction: column;
+  align-items: start;
+  display: flex;
+  flex-direction: column;
 }
 
 .balance {
-    font-size: 32px;
-    color: cornflowerblue;
+  font-size: 32px;
+  color: cornflowerblue;
 }
 
 .income {
-    color: #439A86;
-
+  color: #439a86;
 }
 
 .outcome {
-    color: #BB4430;
+  color: #bb4430;
 }
