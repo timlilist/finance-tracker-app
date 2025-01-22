@@ -1,8 +1,8 @@
 import "./outcomeStatistics.css";
-import { ReactComponent as ShopLogo } from "../logo/shopLogo.svg";
-import { ReactComponent as DeliveryLogo } from "../logo/deliveryLogo.svg";
+import { ReactComponent as ShopLogo } from "../../logo/shopLogo.svg";
+import { ReactComponent as DeliveryLogo } from "../../logo/deliveryLogo.svg";
 import { OutcomeItem } from "./OutcomeItem";
-import { ReactComponent as UserLogo } from "../logo/userLogo.svg";
+import { ReactComponent as UserLogo } from "../../logo/userLogo.svg";
 
 export const OutcomeStatistics = () => {
   return (
