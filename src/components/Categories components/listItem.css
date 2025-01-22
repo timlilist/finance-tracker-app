@@ -1,0 +1,53 @@
+.listItem {
+  display: flex;
+  justify-content: space-between;
+  width: 486px;
+}
+
+.deleteBtn {
+  border: none;
+  background: none;
+}
+
+.listInfo {
+  display: flex;
+  gap: 20px;
+}
+
+.itemCheck {
+  width: 20px;
+}
+
+.categoryInput:focus {
+  outline: none;
+  border: none;
+}
+
+.categoryInput {
+  border: none;
+  background-color: #f6e0ff00;
+  width: 325px;
+}
+
+.editMod {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 600px) {
+  .logo {
+    display: none;
+  }
+
+  .listItem {
+    width: auto;
+  }
+
+  .categoryInput {
+    max-width: 260px;
+  }
+
+  .listInfo {
+    gap: 5px;
+  }
+}

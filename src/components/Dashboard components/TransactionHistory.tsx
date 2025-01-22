@@ -1,8 +1,8 @@
 import "./transactionHistory.css";
-import shopLogo from "../logo/shopLogo.svg";
-import deliveryLogo from "../logo/deliveryLogo.svg";
-import restaurantLogo from "../logo/restaurantLogo.svg";
-import userLogo from "../logo/userLogo.svg";
+import shopLogo from "../../logo/shopLogo.svg";
+import deliveryLogo from "../../logo/deliveryLogo.svg";
+import restaurantLogo from "../../logo/restaurantLogo.svg";
+import userLogo from "../../logo/userLogo.svg";
 
 export const TransactionHistory = () => {
   return (
